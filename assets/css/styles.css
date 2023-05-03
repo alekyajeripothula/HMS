@@ -1,15 +1,15 @@
-/*===== GOOGLE FONTS =====*/
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 
-/*===== VARIABLES CSS =====*/
+
 :root{
-  /*===== Colores =====*/
+
   --first-color: #000000;
   --first-color-dark: #23004D;
   --first-color-light: #000000;
   --first-color-lighten:#00B2FF;
 
-  /*===== Font and typography =====*/
+
   --body-font: 'Open Sans', sans-serif;
   --h1-font-size: 1.5rem;
   --normal-font-size: .938rem;
@@ -23,7 +23,7 @@
   }
 }
 
-/*===== BASE =====*/
+
 *,::before,::after{
   box-sizing: border-box;
 }
@@ -67,7 +67,6 @@ img{
   display: block;
 }
 
-/*===== LOGIN =====*/
 .login{
   display: grid;
   grid-template-columns: 100%;
@@ -212,17 +211,15 @@ img{
   margin: 0 1.5rem;
 }
 
-/*Show login*/
 .block{
   display: block;
 }
 
-/*Hidden login*/
+
 .none{
   display: none;
 }
 
-/* ===== MEDIA QUERIES =====*/
 @media screen and (min-width: 576px) {
   .login__forms {
     width: 348px;
